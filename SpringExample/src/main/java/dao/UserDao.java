@@ -13,14 +13,14 @@ public class UserDao {
 	
 	public UserDao() {
 		System.out.println("UserDao created");
-		addUser();
+		addUsers();
 	}
 	
 	public List<User> getUserList(){
 		return userList;
 	}
 
-	public  void addUser() {
+	public  void addUsers() {
 		
 		userList.add(new User("Elif Seven", "Software Developer"));
 		userList.add(new User("Elif ", "Assistant Software Engineer"));
